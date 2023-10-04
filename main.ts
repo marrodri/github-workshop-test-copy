@@ -1,4 +1,5 @@
 import * as readline from "readline";
+import { printDayName } from "./functions/PrintDayName";
 function main() {
   console.log("hello world");
   var day = process.argv[2];
@@ -22,6 +23,7 @@ function main() {
   // Todo: Implement weekday to Date function. (outdated branch)
   // TODO: Implement a printing function. for the returned string
   // Date to dayName (this goes first with the new branch)
+  printDayName({day:"monday"});
 }
 
 main();
