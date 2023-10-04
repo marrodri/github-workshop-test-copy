@@ -19,6 +19,9 @@ function main() {
   } else {
     console.log(`year:${year}`);
   }
+  // Todo: Implement weekday to Date function. (outdated branch)
+  // TODO: Implement a printing function. for the returned string
+  // Date to dayName (this goes first with the new branch)
 }
 
 main();
