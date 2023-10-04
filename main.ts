@@ -19,6 +19,7 @@ function main() {
   } else {
     console.log(`year:${year}`);
   }
+  const dayName :string = dateToDayName({day:2,month:3,year:1995});
 }
 
 main();
