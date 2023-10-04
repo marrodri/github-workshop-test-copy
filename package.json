@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "@types/node": "^20.8.0"
+  },
+  "dependencies": {
+    "@ionic/angular": "^7.4.3"
   }
 }
